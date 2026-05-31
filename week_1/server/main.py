@@ -13,7 +13,7 @@ app = FastAPI()
 # init openai client. This automatically chesks for the OPENAI_API_KEY aev variable
 client = OpenAI()
 
-# Define the structure for the user message
+# Define the structure for the user message.
 class UserMessage(BaseModel):
     prompt: str
 
